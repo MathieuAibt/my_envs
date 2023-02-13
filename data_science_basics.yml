@@ -1,0 +1,16 @@
+name: data_science_basics
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - conda
+  - pip:
+    - ipykernel
+    - pandas
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - bokeh
+    - seaborn
+    - requests
